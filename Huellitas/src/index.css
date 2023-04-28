@@ -1,4 +1,9 @@
-
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* width: 100%; */
+}
 a {
   font-weight: 500;
   color: #646cff;
