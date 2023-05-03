@@ -2,14 +2,18 @@
 @import "../fonts";
 
 .container {
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     font-family: $font-A;
     font-size: 17px;
-    background-color: $yellow;
-    height: 60px;
+    background-color: transparentize($color: #00000002, $amount: 0);
+    height: 70px;
+    z-index: 3;
+    background-position: 0px 0px;
+   
 
     .container_redirectable{
         display: flex;

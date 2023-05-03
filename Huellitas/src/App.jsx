@@ -17,9 +17,6 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <h1>pet shop</h1>
-      
-   
    <Routes>
       <Route path={routes.home} element={<Home/>}/>
       <Route path={routes.contact} element={<Contact/>}/>

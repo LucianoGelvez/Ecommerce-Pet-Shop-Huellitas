@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&family=Montserrat:wght@100&display=swap");
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -6,8 +7,10 @@
   width: 100vw;
   font-family: "Montserrat", serif;
   font-size: 17px;
-  background-color: #F4DA0F;
-  height: 60px;
+  background-color: rgba(0, 0, 0, 0.0078431373);
+  height: 70px;
+  z-index: 3;
+  background-position: 0px 0px;
 }
 .container .container_redirectable {
   display: flex;
